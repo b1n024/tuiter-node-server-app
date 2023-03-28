@@ -1,0 +1,31 @@
+{
+  "type": "module",
+  "name": "tuiter-node-server-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b1n024/tuiter-react-web-app.git"
+  },
+  "keywords": [
+    "Node",
+    "REST",
+    "Server",
+    "HTTP"
+  ],
+  "author": "Bin Feng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b1n024/tuiter-react-web-app/issues"
+  },
+  "homepage": "https://github.com/b1n024/tuiter-react-web-app#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
