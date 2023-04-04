@@ -27,6 +27,7 @@ const createTuit = async (req, res) => {
 
     newTuit.likes = 0;
     newTuit.liked = false;
+
     const insertedTuit = await tuitsDao
         .createTuit(newTuit);
 
